@@ -1,0 +1,12 @@
+{
+  "templates": [
+    {
+      "id": "s-uuid-456",
+      "name": "E-commerce Product Grid",
+      "instruction": "Extract name, price, rating, reviews count",
+      "fields": ["name", "price", "rating", "reviews"],
+      "outputFormat": "json",
+      "exampleUrl": "https://example.com/shop"
+    }
+  ]
+}

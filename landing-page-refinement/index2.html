@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PromptForge AI • Forge Prompts • Mine Data</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <style>
+    .hero-bg { background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%); }
+  </style>
+</head>
+<body class="bg-gray-950 text-white font-sans">
+  <!-- Navbar -->
+  <nav class="border-b border-gray-800 bg-gray-950/80 backdrop-blur-md fixed w-full z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <div class="flex items-center gap-3">
+        <span class="text-3xl">🔨</span>
+        <h1 class="text-2xl font-bold tracking-tight">PromptForge</h1>
+      </div>
+      <div class="hidden md:flex gap-8 text-sm">
+        <a href="#features" class="hover:text-violet-400">Features</a>
+        <a href="#api" class="hover:text-violet-400">API</a>
+        <a href="#pricing" class="hover:text-violet-400">Pricing</a>
+      </div>
+      <a href="#get-started" class="bg-violet-600 hover:bg-violet-700 px-6 py-2 rounded-full font-medium transition">Get Started Free</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero-bg pt-32 pb-24 text-center">
+    <div class="max-w-4xl mx-auto px-6">
+      <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur px-4 py-1.5 rounded-full mb-6 text-sm">
+        <span class="text-emerald-400">●</span> Now in Public Beta
+      </div>
+      <h2 class="text-6xl font-bold leading-tight mb-6">Forge Super Prompts.<br>Mine Any Data.<br>All in JSON.</h2>
+      <p class="text-xl text-gray-300 mb-10">The Prompt Genie + Chat4Data killer. Zero coding. Full API. Pay with Wise.</p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="#get-started" class="bg-white text-gray-950 font-semibold px-10 py-4 rounded-2xl text-lg hover:scale-105 transition">Start Free — 2,000 Tokens</a>
+        <a href="#pricing" class="border border-white/50 hover:bg-white/10 px-10 py-4 rounded-2xl text-lg transition">See Wise Pricing</a>
+      </div>
+      <p class="text-xs text-gray-400 mt-6">No credit card • Cancel anytime • Powered by JSON</p>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="py-24 bg-gray-900">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-4xl font-bold text-center mb-16">Everything you love from Prompt Genie & Chat4Data — and more</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-gray-800 p-8 rounded-3xl">
+          <i class="fa-solid fa-wand-magic-sparkles text-4xl text-violet-400 mb-6"></i>
+          <h4 class="text-2xl font-semibold mb-3">Prompt Forge</h4>
+          <p class="text-gray-400">Half-baked idea → production-ready Super Prompt in 1 click. Save to JSON vault.</p>
+        </div>
+        <div class="bg-gray-800 p-8 rounded-3xl">
+          <i class="fa-solid fa-robot text-4xl text-fuchsia-400 mb-6"></i>
+          <h4 class="text-2xl font-semibold mb-3">DataForge Chat</h4>
+          <p class="text-gray-400">Chat with any webpage. Extract structured data. Export JSON/CSV instantly.</p>
+        </div>
+        <div class="bg-gray-800 p-8 rounded-3xl">
+          <i class="fa-solid fa-plug text-4xl text-emerald-400 mb-6"></i>
+          <h4 class="text-2xl font-semibold mb-3">JSON + API First</h4>
+          <p class="text-gray-400">Your data is yours. Full REST API with token tracking. Build anything.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="py-24">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h3 class="text-4xl font-bold mb-4">Simple pricing. Paid with Wise.</h3>
+      <p class="text-gray-400 mb-12">International-friendly. No hidden fees.</p>
+      
+      <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        <!-- Free -->
+        <div class="bg-gray-900 border border-gray-700 rounded-3xl p-8">
+          <h4 class="text-2xl font-semibold">Starter</h4>
+          <div class="text-5xl font-bold my-6">$0</div>
+          <ul class="space-y-3 text-left text-sm">
+            <li>✅ 2,000 tokens/mo</li>
+            <li>✅ Prompt Forge</li>
+            <li>✅ 5 scrapes</li>
+          </ul>
+          <a href="#" class="block mt-8 bg-gray-800 hover:bg-gray-700 py-4 rounded-2xl">Get Free</a>
+        </div>
+        
+        <!-- Pro -->
+        <div class="bg-gradient-to-b from-violet-600 to-fuchsia-600 rounded-3xl p-8 scale-110 shadow-2xl">
+          <div class="bg-white/20 text-white text-xs inline-block px-4 py-1 rounded-full mb-4">MOST POPULAR</div>
+          <h4 class="text-3xl font-semibold">Pro</h4>
+          <div class="text-6xl font-bold my-6">$19<span class="text-base font-normal">/mo</span></div>
+          <ul class="space-y-3 text-left">
+            <li>✅ 100,000 tokens</li>
+            <li>✅ Full Chrome Extension</li>
+            <li>✅ Unlimited JSON vaults</li>
+            <li>✅ API access</li>
+            <li>✅ Wise billing</li>
+          </ul>
+          <a href="#" onclick="alert('Redirecting to Wise payment link... (demo)')" class="block mt-8 bg-white text-gray-950 font-bold py-4 rounded-2xl">Subscribe with Wise</a>
+        </div>
+        
+        <!-- Business -->
+        <div class="bg-gray-900 border border-gray-700 rounded-3xl p-8">
+          <h4 class="text-2xl font-semibold">Business</h4>
+          <div class="text-5xl font-bold my-6">$49</div>
+          <ul class="space-y-3 text-left text-sm">
+            <li>✅ Unlimited everything</li>
+            <li>✅ Team sharing</li>
+            <li>✅ Priority support</li>
+            <li>✅ Custom JSON sync</li>
+          </ul>
+          <a href="#" class="block mt-8 bg-gray-800 hover:bg-gray-700 py-4 rounded-2xl">Contact Sales</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- API Section -->
+  <section id="api" class="py-24 bg-gray-900">
+    <div class="max-w-4xl mx-auto px-6">
+      <h3 class="text-4xl font-bold text-center mb-12">Developer-first API (Token-powered)</h3>
+      <pre class="bg-black p-8 rounded-3xl text-sm overflow-auto text-emerald-400">
+curl -X POST https://api.promptforge.ai/v1/optimize \
+  -H "Authorization: Bearer pf_abc123xyz" \
+  -d '{"input": "write a cold email"}'
+      </pre>
+      <p class="text-center text-gray-400 mt-6">Full docs + SDKs coming in 48 hours. Tokens deducted transparently.</p>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="get-started" class="py-24 text-center bg-gradient-to-b from-gray-900 to-black">
+    <h2 class="text-5xl font-bold mb-6">Ready to forge the future?</h2>
+    <p class="text-xl text-gray-400 mb-10">Start free. Upgrade with Wise in 30 seconds.</p>
+    <a href="#" class="inline-block bg-white text-gray-950 font-bold text-xl px-12 py-6 rounded-3xl hover:scale-105 transition">Create Free Account →</a>
+  </section>
+
+  <footer class="py-12 border-t border-gray-800 text-center text-gray-500 text-sm">
+    © 2026 PromptForge AI • Built for power users who move fast • JSON-first • Wise payments
+  </footer>
+</body>
+</html>

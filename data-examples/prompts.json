@@ -1,0 +1,15 @@
+{
+  "prompts": [
+    {
+      "id": "p-uuid-123",
+      "title": "Viral LinkedIn Post",
+      "original": "write linkedin post about ai",
+      "optimized": "You are a world-class LinkedIn ghostwriter... [full super prompt]",
+      "tags": ["marketing", "linkedin", "viral"],
+      "model": "claude-3.5",
+      "rating": 4.9,
+      "created": "2026-02-20T00:00:00Z",
+      "uses": 47
+    }
+  ]
+}

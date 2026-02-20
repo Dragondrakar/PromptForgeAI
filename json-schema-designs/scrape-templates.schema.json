@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PromptForge Scrape Templates",
+  "type": "object",
+  "properties": {
+    "templates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "instruction": { "type": "string" },
+          "fields": { "type": "array", "items": { "type": "string" } },
+          "outputFormat": { "type": "string", "enum": ["json","csv","excel"] },
+          "exampleUrl": { "type": "string" }
+        },
+        "required": ["id", "name", "instruction", "fields"]
+      }
+    }
+  },
+  "required": ["templates"]
+}
