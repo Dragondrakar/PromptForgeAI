@@ -1,0 +1,23 @@
+promptforge-ai-v1.1/
+├── README.md
+├── API-DOCS.md
+├── backend/
+│   ├── main.py
+│   ├── models.py
+│   ├── database.py
+│   ├── requirements.txt
+│   └── .env.example
+├── chrome-extension/
+│   ├── manifest.json
+│   ├── popup.html
+│   ├── popup.js
+│   ├── content.js
+│   ├── background.js
+│   └── icons/
+│       ├── icon-16.png
+│       ├── icon-48.png
+│       └── icon-128.png
+├── json-schema-designs/          (unchanged from v1.0)
+├── wise-integration-guide/       (unchanged)
+├── landing-page-refinement/      (unchanged)
+└── data-examples/                (unchanged)

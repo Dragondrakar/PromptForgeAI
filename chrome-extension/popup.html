@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>PromptForge</title>
+  <style>
+    body { width: 380px; font-family: system-ui; padding: 16px; background: #0a0a0a; color: white; }
+    input, textarea, button { width: 100%; margin: 8px 0; padding: 10px; border-radius: 8px; }
+    button { background: #8b5cf6; color: white; border: none; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>🔨 PromptForge AI</h1>
+  <div id="tabs">
+    <button onclick="showTab(0)">Prompt Forge</button>
+    <button onclick="showTab(1)">Data Forge</button>
+  </div>
+  <div id="prompt-tab">
+    <textarea id="prompt-input" placeholder="Write a viral tweet about AI..." rows="4"></textarea>
+    <button onclick="optimizePrompt()">🔥 Optimize Prompt</button>
+    <pre id="result" style="background:#111; padding:10px; border-radius:8px; max-height:200px; overflow:auto"></pre>
+  </div>
+  <div id="data-tab" style="display:none">
+    <input id="url-input" placeholder="https://example.com" value="">
+    <textarea id="query-input" placeholder="Extract product names and prices" rows="2"></textarea>
+    <button onclick="scrapeData()">📊 Scrape This Page</button>
+    <pre id="data-result" style="background:#111; padding:10px; border-radius:8px; max-height:200px; overflow:auto"></pre>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

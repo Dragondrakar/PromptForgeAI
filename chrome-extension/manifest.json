@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "PromptForge AI",
+  "version": "1.1",
+  "description": "Webscraper and Prompt Optimizer in your browser",
+  "icons": {
+    "16": "icons/favicon-16x16.png",
+	"32": "icons/favicon-32x32.png",
+	"48": "icons/favicon-48x48.png",
+    "64": "icons/favicon-64x64.png",
+    "128": "icons/favicon-128x128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "PromptForge AI"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content.js"]
+  }],
+  "permissions": ["activeTab", "storage"]
+}
